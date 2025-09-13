@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "911477909142",
+    "project_id": "tap2give-c8a07",
+    "storage_bucket": "tap2give-c8a07.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911477909142:android:53ca91f6263d3da74644b7",
+        "android_client_info": {
+          "package_name": "com.mosque.taptogive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP0mGG_MSTvbr9r8I0MfV7dayk9BfzMsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

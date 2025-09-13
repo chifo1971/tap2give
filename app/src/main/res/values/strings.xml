@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tap2Give</string>
+    
+    <!-- Main Screen -->
+    <string name="main_title">Tap to Give</string>
+    <string name="main_subtitle">Choose your donation amount</string>
+    <string name="main_subtitle_arabic">اختر مبلغ التبرع</string>
+    
+    <!-- Donation Amounts -->
+    <string name="amount_5">$5</string>
+    <string name="amount_10">$10</string>
+    <string name="amount_25">$25</string>
+    <string name="amount_50">$50</string>
+    <string name="amount_100">$100</string>
+    <string name="amount_custom">Custom</string>
+    
+    <!-- Payment Screen -->
+    <string name="payment_title">Payment</string>
+    <string name="payment_amount">Amount: %1$s</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="payment_card">Card</string>
+    <string name="payment_nfc">NFC</string>
+    <string name="payment_processing">Processing payment...</string>
+    <string name="payment_success">Payment successful!</string>
+    <string name="payment_failed">Payment failed. Please try again.</string>
+    <string name="payment_cancel">Cancel</string>
+    <string name="payment_retry">Retry</string>
+    
+    <!-- Arabic Payment Screen -->
+    <string name="payment_title_arabic">الدفع</string>
+    <string name="payment_amount_arabic">المبلغ: %1$s</string>
+    <string name="payment_method_arabic">طريقة الدفع</string>
+    <string name="payment_card_arabic">بطاقة</string>
+    <string name="payment_nfc_arabic">NFC</string>
+    <string name="payment_processing_arabic">جاري معالجة الدفع...</string>
+    <string name="payment_success_arabic">تم الدفع بنجاح!</string>
+    <string name="payment_failed_arabic">فشل الدفع. يرجى المحاولة مرة أخرى.</string>
+    <string name="payment_cancel_arabic">إلغاء</string>
+    <string name="payment_retry_arabic">إعادة المحاولة</string>
+    
+    <!-- Error Messages -->
+    <string name="error_nfc_not_available">NFC is not available on this device</string>
+    <string name="error_nfc_disabled">NFC is disabled. Please enable it in settings</string>
+    <string name="error_network">Network error. Please check your connection</string>
+    <string name="error_payment_processing">Error processing payment</string>
+    <string name="error_unknown">An unknown error occurred</string>
+    
+    <!-- Arabic Error Messages -->
+    <string name="error_nfc_not_available_arabic">NFC غير متوفر على هذا الجهاز</string>
+    <string name="error_nfc_disabled_arabic">NFC معطل. يرجى تفعيله في الإعدادات</string>
+    <string name="error_network_arabic">خطأ في الشبكة. يرجى التحقق من الاتصال</string>
+    <string name="error_payment_processing_arabic">خطأ في معالجة الدفع</string>
+    <string name="error_unknown_arabic">حدث خطأ غير معروف</string>
+    
+    <!-- Success Messages -->
+    <string name="success_donation">Thank you for your donation!</string>
+    <string name="success_donation_arabic">شكراً لك على تبرعك!</string>
+    
+    <!-- Navigation -->
+    <string name="nav_back">Back</string>
+    <string name="nav_back_arabic">رجوع</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_home_arabic">الرئيسية</string>
+    
+    <!-- Accessibility -->
+    <string name="accessibility_payment_screen">Payment screen for %1$s</string>
+    <string name="accessibility_payment_screen_arabic">شاشة الدفع لـ %1$s</string>
+    
+    <!-- Audio -->
+    <string name="audio_success">Success sound</string>
+    <string name="audio_error">Error sound</string>
+    <string name="audio_button_click">Button click sound</string>
+</resources>

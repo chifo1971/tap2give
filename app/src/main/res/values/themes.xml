@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tap2Give" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
+    </style>
+
+    <style name="Theme.Tap2Give" parent="Base.Theme.Tap2Give" />
+    
+    <!-- Fullscreen theme for kiosk mode -->
+    <style name="Theme.Tap2Give.Fullscreen" parent="Theme.Tap2Give">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/md_theme_light_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+    
+    <!-- Button styles -->
+    <style name="DonationButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/donation_button_teal_selector</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+    
+    <!-- Title text style -->
+    <style name="TitleText" parent="android:Widget.TextView">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/md_theme_light_primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">24dp</item>
+    </style>
+    
+    <!-- Subtitle text style -->
+    <style name="SubtitleText" parent="android:Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/md_theme_light_onSurface</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+    
+    <!-- Keypad button style -->
+    <style name="KeypadButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/donation_button_teal_selector</item>
+        <item name="android:textColor">@color/gold_text</item>
+        <item name="android:elevation">4dp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    
+    <!-- Responsive donation button style -->
+    <style name="ResponsiveDonationButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">120dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gold_text</item>
+        <item name="backgroundTint">@color/donation_button_teal_selector</item>
+        <item name="android:elevation">8dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+</resources>

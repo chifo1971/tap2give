@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/md_theme_light_background"
+    android:padding="24dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Custom Amount"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/md_theme_light_primary"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Amount Display -->
+        <TextView
+            android:id="@+id/amount_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$0"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/donation_button_teal"
+            android:background="@drawable/amount_display_background"
+            android:padding="16dp"
+            android:minWidth="150dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Number Keypad Grid -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Row 1: 1, 2, 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:text="1"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:text="2"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:text="3"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp" />
+
+        </LinearLayout>
+
+        <!-- Row 2: 4, 5, 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/button4"
+                android:text="4"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:text="5"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:text="6"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp" />
+
+        </LinearLayout>
+
+        <!-- Row 3: 7, 8, 9 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/button7"
+                android:text="7"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:text="8"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:text="9"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp" />
+
+        </LinearLayout>
+
+        <!-- Row 4: Clear, 0, Delete -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonClear"
+                android:text="Clear"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button0"
+                android:text="0"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:text="⌫"
+                style="@style/KeypadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_cancel"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="Cancel" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_confirm"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Confirm"
+            android:backgroundTint="@color/donation_button_teal" />
+
+    </LinearLayout>
+
+</LinearLayout>

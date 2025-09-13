@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.mosque.taptogive.app-mergeDebugResources-66:/layout/dialog_custom_amount.xml",
+        "source": "com.mosque.taptogive.app-main-69:/layout/dialog_custom_amount.xml"
+    },
+    {
+        "merged": "/Users/cherif/.gradle/daemon/8.13/com.mosque.taptogive.app-mergeDebugResources-66:/layout/activity_main.xml",
+        "source": "/Users/cherif/.gradle/daemon/8.13/com.mosque.taptogive.app-main-69:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/cherif/.gradle/daemon/8.13/com.mosque.taptogive.app-mergeDebugResources-66:/layout/dialog_custom_amount.xml",
+        "source": "/Users/cherif/.gradle/daemon/8.13/com.mosque.taptogive.app-main-69:/layout/dialog_custom_amount.xml"
+    },
+    {
+        "merged": "/Users/cherif/.gradle/daemon/8.13/com.mosque.taptogive.app-mergeDebugResources-66:/layout/activity_payment.xml",
+        "source": "/Users/cherif/.gradle/daemon/8.13/com.mosque.taptogive.app-main-69:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "/Users/cherif/.gradle/daemon/8.13/com.mosque.taptogive.app-mergeDebugResources-66:/layout/item_donation_button.xml",
+        "source": "/Users/cherif/.gradle/daemon/8.13/com.mosque.taptogive.app-main-69:/layout/item_donation_button.xml"
+    }
+]

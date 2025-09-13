@@ -1,0 +1,71 @@
+com.mosque.taptogive.app-core-ktx-1.12.0-0 /Users/cherif/.gradle/caches/8.13/transforms/02e60808dc7c7661550a28309aa364fb/transformed/core-ktx-1.12.0/res
+com.mosque.taptogive.app-activity-1.8.0-1 /Users/cherif/.gradle/caches/8.13/transforms/093e2b8dd439ceaf626a262a57aaec65/transformed/activity-1.8.0/res
+com.mosque.taptogive.app-stripeterminal-core-3.0.0-2 /Users/cherif/.gradle/caches/8.13/transforms/115f35258421d584d9a830d9d2539fcc/transformed/stripeterminal-core-3.0.0/res
+com.mosque.taptogive.app-emoji2-views-helper-1.2.0-3 /Users/cherif/.gradle/caches/8.13/transforms/147e02713e617801ff3b38184082adec/transformed/emoji2-views-helper-1.2.0/res
+com.mosque.taptogive.app-navigation-ui-ktx-2.7.5-4 /Users/cherif/.gradle/caches/8.13/transforms/1e41b87d4b9797f7698aadc6e3cac408/transformed/navigation-ui-ktx-2.7.5/res
+com.mosque.taptogive.app-lifecycle-livedata-core-ktx-2.7.0-5 /Users/cherif/.gradle/caches/8.13/transforms/2543b524a83ffc2fe6f5d6562986b974/transformed/lifecycle-livedata-core-ktx-2.7.0/res
+com.mosque.taptogive.app-slidingpanelayout-1.2.0-6 /Users/cherif/.gradle/caches/8.13/transforms/27e61056605defcc2a382066bedab27c/transformed/slidingpanelayout-1.2.0/res
+com.mosque.taptogive.app-fragment-1.6.2-7 /Users/cherif/.gradle/caches/8.13/transforms/29310ec404c96be5d56f3cc7eede79b3/transformed/fragment-1.6.2/res
+com.mosque.taptogive.app-sqlite-2.3.1-8 /Users/cherif/.gradle/caches/8.13/transforms/2ac5d4e6f0ecaae024453a0b5452a7cf/transformed/sqlite-2.3.1/res
+com.mosque.taptogive.app-savedstate-1.2.1-9 /Users/cherif/.gradle/caches/8.13/transforms/2e6dcb4e2209268fa128b9e3861e0573/transformed/savedstate-1.2.1/res
+com.mosque.taptogive.app-ads-adservices-1.0.0-beta05-10 /Users/cherif/.gradle/caches/8.13/transforms/2f1e8c32fe43af2ea5acda9de329faed/transformed/ads-adservices-1.0.0-beta05/res
+com.mosque.taptogive.app-material-1.11.0-11 /Users/cherif/.gradle/caches/8.13/transforms/324bc60df855ab84424278196c48dd44/transformed/material-1.11.0/res
+com.mosque.taptogive.app-lifecycle-process-2.7.0-12 /Users/cherif/.gradle/caches/8.13/transforms/3353e28f6354c4b1913d1e83e3fcbcf7/transformed/lifecycle-process-2.7.0/res
+com.mosque.taptogive.app-room-ktx-2.5.2-13 /Users/cherif/.gradle/caches/8.13/transforms/37fefb14e50f43b54475d90506cf61f6/transformed/room-ktx-2.5.2/res
+com.mosque.taptogive.app-navigation-common-ktx-2.7.5-14 /Users/cherif/.gradle/caches/8.13/transforms/3eeaf236ee06c01bff104a801a980846/transformed/navigation-common-ktx-2.7.5/res
+com.mosque.taptogive.app-emoji2-1.2.0-15 /Users/cherif/.gradle/caches/8.13/transforms/44b533f32a76b83af426739ec12d1b06/transformed/emoji2-1.2.0/res
+com.mosque.taptogive.app-lifecycle-viewmodel-ktx-2.7.0-16 /Users/cherif/.gradle/caches/8.13/transforms/4b42ba331728cd7571a15ff57912cfd5/transformed/lifecycle-viewmodel-ktx-2.7.0/res
+com.mosque.taptogive.app-lifecycle-livedata-core-2.7.0-17 /Users/cherif/.gradle/caches/8.13/transforms/50de384692050cecc01b1caaba7a77fe/transformed/lifecycle-livedata-core-2.7.0/res
+com.mosque.taptogive.app-navigation-fragment-2.7.5-18 /Users/cherif/.gradle/caches/8.13/transforms/52aa6627c7101ce79239fe7113c0f0f8/transformed/navigation-fragment-2.7.5/res
+com.mosque.taptogive.app-navigation-runtime-ktx-2.7.5-19 /Users/cherif/.gradle/caches/8.13/transforms/5417aa31855480f0fe110446c438b0ec/transformed/navigation-runtime-ktx-2.7.5/res
+com.mosque.taptogive.app-appcompat-1.6.1-20 /Users/cherif/.gradle/caches/8.13/transforms/603b1a2459162711740a83174b3c2140/transformed/appcompat-1.6.1/res
+com.mosque.taptogive.app-room-runtime-2.5.2-21 /Users/cherif/.gradle/caches/8.13/transforms/65ade67e4b85c8a32c98769c85ea1000/transformed/room-runtime-2.5.2/res
+com.mosque.taptogive.app-core-runtime-2.2.0-22 /Users/cherif/.gradle/caches/8.13/transforms/677d113cfef7477d49dab9fd48d19d7b/transformed/core-runtime-2.2.0/res
+com.mosque.taptogive.app-window-1.0.0-23 /Users/cherif/.gradle/caches/8.13/transforms/68f4f515b98e65adf9c76d829cf75ec0/transformed/window-1.0.0/res
+com.mosque.taptogive.app-lifecycle-runtime-2.7.0-24 /Users/cherif/.gradle/caches/8.13/transforms/6cf874630c276327467f2f03b55fe1f0/transformed/lifecycle-runtime-2.7.0/res
+com.mosque.taptogive.app-core-1.12.0-25 /Users/cherif/.gradle/caches/8.13/transforms/6d131a42dfdf9d7fc2e247977592497f/transformed/core-1.12.0/res
+com.mosque.taptogive.app-media-1.7.0-26 /Users/cherif/.gradle/caches/8.13/transforms/763917bfbdb7db405dba9bd607eef956/transformed/media-1.7.0/res
+com.mosque.taptogive.app-lifecycle-livedata-ktx-2.7.0-27 /Users/cherif/.gradle/caches/8.13/transforms/7a13482c86d7516bdb4deac2a772fb6b/transformed/lifecycle-livedata-ktx-2.7.0/res
+com.mosque.taptogive.app-recyclerview-1.1.0-28 /Users/cherif/.gradle/caches/8.13/transforms/7ad0c700c8da9036a59ce55524c3a6c8/transformed/recyclerview-1.1.0/res
+com.mosque.taptogive.app-coordinatorlayout-1.1.0-29 /Users/cherif/.gradle/caches/8.13/transforms/7dffb00d66d1058299cc796cedcf445c/transformed/coordinatorlayout-1.1.0/res
+com.mosque.taptogive.app-transition-1.4.1-30 /Users/cherif/.gradle/caches/8.13/transforms/7fce4a65eca0dd8fcf91891d044e4d83/transformed/transition-1.4.1/res
+com.mosque.taptogive.app-play-services-base-18.0.1-31 /Users/cherif/.gradle/caches/8.13/transforms/818ec8290713e68f2189fa324a12db86/transformed/play-services-base-18.0.1/res
+com.mosque.taptogive.app-datastore-1.0.0-32 /Users/cherif/.gradle/caches/8.13/transforms/81e448ed158713857610424c43e8eea3/transformed/datastore-1.0.0/res
+com.mosque.taptogive.app-lifecycle-livedata-2.7.0-33 /Users/cherif/.gradle/caches/8.13/transforms/821057293579b50552100a74eec60d7d/transformed/lifecycle-livedata-2.7.0/res
+com.mosque.taptogive.app-startup-runtime-1.1.1-34 /Users/cherif/.gradle/caches/8.13/transforms/865d094725fde212cbe8768779217d91/transformed/startup-runtime-1.1.1/res
+com.mosque.taptogive.app-play-services-basement-18.1.0-35 /Users/cherif/.gradle/caches/8.13/transforms/8b3b46a7b2f793267426fdb369a293e3/transformed/play-services-basement-18.1.0/res
+com.mosque.taptogive.app-constraintlayout-2.1.4-36 /Users/cherif/.gradle/caches/8.13/transforms/8e0e8820fcbc344a60c1cfcf67157a02/transformed/constraintlayout-2.1.4/res
+com.mosque.taptogive.app-viewpager2-1.0.0-37 /Users/cherif/.gradle/caches/8.13/transforms/9b363aa3320da33fdc7a8c895c87621c/transformed/viewpager2-1.0.0/res
+com.mosque.taptogive.app-activity-ktx-1.8.0-38 /Users/cherif/.gradle/caches/8.13/transforms/a1b0c6c0ee31a88db4a981e6cc5f551d/transformed/activity-ktx-1.8.0/res
+com.mosque.taptogive.app-appcompat-resources-1.6.1-39 /Users/cherif/.gradle/caches/8.13/transforms/a2601ae2c02387d01fb0fae7676927ff/transformed/appcompat-resources-1.6.1/res
+com.mosque.taptogive.app-cardview-1.0.0-40 /Users/cherif/.gradle/caches/8.13/transforms/acd9840480641559a3ecd0606d7d2283/transformed/cardview-1.0.0/res
+com.mosque.taptogive.app-navigation-common-2.7.5-41 /Users/cherif/.gradle/caches/8.13/transforms/aeb14fbf44a649882c66e8ab1fc3b2b1/transformed/navigation-common-2.7.5/res
+com.mosque.taptogive.app-lifecycle-service-2.7.0-42 /Users/cherif/.gradle/caches/8.13/transforms/af4038d9dd17c9348951e79a7ea657d4/transformed/lifecycle-service-2.7.0/res
+com.mosque.taptogive.app-profileinstaller-1.3.0-43 /Users/cherif/.gradle/caches/8.13/transforms/b1159f99535337dd84b1a3eefac84fb7/transformed/profileinstaller-1.3.0/res
+com.mosque.taptogive.app-databinding-adapters-8.13.0-44 /Users/cherif/.gradle/caches/8.13/transforms/b910266e8a68d12cba89361a9edae622/transformed/databinding-adapters-8.13.0/res
+com.mosque.taptogive.app-navigation-ui-2.7.5-45 /Users/cherif/.gradle/caches/8.13/transforms/c0361500dbb4003a1c8d11f27111279e/transformed/navigation-ui-2.7.5/res
+com.mosque.taptogive.app-firebase-common-20.4.2-46 /Users/cherif/.gradle/caches/8.13/transforms/c099801948ebb35e66e256cf22617072/transformed/firebase-common-20.4.2/res
+com.mosque.taptogive.app-lifecycle-viewmodel-2.7.0-47 /Users/cherif/.gradle/caches/8.13/transforms/cb30173732ad581c4381b3f4933f2640/transformed/lifecycle-viewmodel-2.7.0/res
+com.mosque.taptogive.app-ads-adservices-java-1.0.0-beta05-48 /Users/cherif/.gradle/caches/8.13/transforms/d5723c07a0a01d0060ec440eacdf3d70/transformed/ads-adservices-java-1.0.0-beta05/res
+com.mosque.taptogive.app-navigation-runtime-2.7.5-49 /Users/cherif/.gradle/caches/8.13/transforms/d5a58fb2f5cec5a93e43ded00625a00f/transformed/navigation-runtime-2.7.5/res
+com.mosque.taptogive.app-drawerlayout-1.1.1-50 /Users/cherif/.gradle/caches/8.13/transforms/d751d0b7cbbf8ba27f4a0ebe0e9b1976/transformed/drawerlayout-1.1.1/res
+com.mosque.taptogive.app-datastore-preferences-1.0.0-51 /Users/cherif/.gradle/caches/8.13/transforms/d998a41120adc95a01322328d132545c/transformed/datastore-preferences-1.0.0/res
+com.mosque.taptogive.app-fragment-ktx-1.6.2-52 /Users/cherif/.gradle/caches/8.13/transforms/db1d1f22c73fa22bae0249c2cc65c739/transformed/fragment-ktx-1.6.2/res
+com.mosque.taptogive.app-annotation-experimental-1.3.0-53 /Users/cherif/.gradle/caches/8.13/transforms/e566feee1426a7d0c0ecc7dcfcebdcd5/transformed/annotation-experimental-1.3.0/res
+com.mosque.taptogive.app-databinding-runtime-8.13.0-54 /Users/cherif/.gradle/caches/8.13/transforms/e707a59c98d0f96c67c585cb237d0fff/transformed/databinding-runtime-8.13.0/res
+com.mosque.taptogive.app-lifecycle-viewmodel-savedstate-2.7.0-55 /Users/cherif/.gradle/caches/8.13/transforms/e8794a6e1ab4a0cc4b16c2b5606a1ea8/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
+com.mosque.taptogive.app-sqlite-framework-2.3.1-56 /Users/cherif/.gradle/caches/8.13/transforms/ea582369ae5cde94d73eaf9bf2c5eea2/transformed/sqlite-framework-2.3.1/res
+com.mosque.taptogive.app-savedstate-ktx-1.2.1-57 /Users/cherif/.gradle/caches/8.13/transforms/f7b35c6c4d01628a381dc08428e82fc9/transformed/savedstate-ktx-1.2.1/res
+com.mosque.taptogive.app-play-services-measurement-api-21.5.0-58 /Users/cherif/.gradle/caches/8.13/transforms/faf3f0f146d7feb51885b1fee1c0bb34/transformed/play-services-measurement-api-21.5.0/res
+com.mosque.taptogive.app-navigation-fragment-ktx-2.7.5-59 /Users/cherif/.gradle/caches/8.13/transforms/fe5e8ae0def315bf961a6a195fb6cd07/transformed/navigation-fragment-ktx-2.7.5/res
+com.mosque.taptogive.app-lifecycle-runtime-ktx-2.7.0-60 /Users/cherif/.gradle/caches/8.13/transforms/fe96cfa12eece74f9da39977f01e3898/transformed/lifecycle-runtime-ktx-2.7.0/res
+com.mosque.taptogive.app-res-61 /Users/cherif/Library/CloudStorage/GoogleDrive-cherif.elassar@gmail.com/My Drive/000 - Personal - US/Tap2Give/app/build/generated/crashlytics/res/debug
+com.mosque.taptogive.app-pngs-62 /Users/cherif/Library/CloudStorage/GoogleDrive-cherif.elassar@gmail.com/My Drive/000 - Personal - US/Tap2Give/app/build/generated/res/pngs/debug
+com.mosque.taptogive.app-res-63 /Users/cherif/Library/CloudStorage/GoogleDrive-cherif.elassar@gmail.com/My Drive/000 - Personal - US/Tap2Give/app/build/generated/res/processDebugGoogleServices
+com.mosque.taptogive.app-resValues-64 /Users/cherif/Library/CloudStorage/GoogleDrive-cherif.elassar@gmail.com/My Drive/000 - Personal - US/Tap2Give/app/build/generated/res/resValues/debug
+com.mosque.taptogive.app-updated_navigation_xml-65 /Users/cherif/Library/CloudStorage/GoogleDrive-cherif.elassar@gmail.com/My Drive/000 - Personal - US/Tap2Give/app/build/generated/updated_navigation_xml/debug
+com.mosque.taptogive.app-packageDebugResources-66 /Users/cherif/Library/CloudStorage/GoogleDrive-cherif.elassar@gmail.com/My Drive/000 - Personal - US/Tap2Give/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.mosque.taptogive.app-packageDebugResources-67 /Users/cherif/Library/CloudStorage/GoogleDrive-cherif.elassar@gmail.com/My Drive/000 - Personal - US/Tap2Give/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.mosque.taptogive.app-debug-68 /Users/cherif/Library/CloudStorage/GoogleDrive-cherif.elassar@gmail.com/My Drive/000 - Personal - US/Tap2Give/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.mosque.taptogive.app-debug-69 /Users/cherif/Library/CloudStorage/GoogleDrive-cherif.elassar@gmail.com/My Drive/000 - Personal - US/Tap2Give/app/src/debug/res
+com.mosque.taptogive.app-main-70 /Users/cherif/Library/CloudStorage/GoogleDrive-cherif.elassar@gmail.com/My Drive/000 - Personal - US/Tap2Give/app/src/main/res

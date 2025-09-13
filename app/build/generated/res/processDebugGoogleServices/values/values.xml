@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">911477909142</string>
+    <string name="google_api_key" translatable="false">AIzaSyBP0mGG_MSTvbr9r8I0MfV7dayk9BfzMsg</string>
+    <string name="google_app_id" translatable="false">1:911477909142:android:53ca91f6263d3da74644b7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBP0mGG_MSTvbr9r8I0MfV7dayk9BfzMsg</string>
+    <string name="google_storage_bucket" translatable="false">tap2give-c8a07.firebasestorage.app</string>
+    <string name="project_id" translatable="false">tap2give-c8a07</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Donation amounts for easy access -->
+    <string-array name="donation_amounts">
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+    
+    <!-- Payment methods -->
+    <string-array name="payment_methods">
+        <item>card</item>
+        <item>nfc</item>
+    </string-array>
+</resources>
