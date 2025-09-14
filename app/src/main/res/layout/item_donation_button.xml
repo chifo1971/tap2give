@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/donation_button"
+    style="@style/ResponsiveDonationButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:text=""
+    android:textColor="@color/gold_text"
+    android:backgroundTint="@color/donation_button_teal_selector"
+    app:cornerRadius="16dp"
+    app:elevation="8dp" />

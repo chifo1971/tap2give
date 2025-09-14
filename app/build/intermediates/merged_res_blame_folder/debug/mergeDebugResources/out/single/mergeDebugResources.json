@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/layout_item_donation_button.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/layout/item_donation_button.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/anim_slide_in_right.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/drawable_ic_payment_success.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/drawable/ic_payment_success.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/color_donation_button_teal_selector.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/color/donation_button_teal_selector.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/xml_data_extraction_rules.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/drawable_amount_display_background.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/drawable/amount_display_background.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/layout_activity_main.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/anim_slide_out_left.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/anim_slide_out_right.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/layout_activity_payment.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/xml_backup_rules.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/layout_dialog_custom_amount.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/layout/dialog_custom_amount.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/drawable_ic_payment_error.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/drawable/ic_payment_error.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/xml_nfc_tech_filter.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/xml/nfc_tech_filter.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mosque.taptogive.app-debug-67:/anim_slide_in_left.xml.flat",
+        "source": "com.mosque.taptogive.app-main-69:/anim/slide_in_left.xml"
+    }
+]
