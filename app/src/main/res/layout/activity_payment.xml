@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <!-- Back Button (top left) -->
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/back"
+        android:src="@drawable/ic_arrow_back"
+        android:tint="#424242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Main Content Card (Teal) -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/payment_card"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        app:cardBackgroundColor="#04A7A9"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="48dp">
+
+            <!-- Amount Display -->
+            <TextView
+                android:id="@+id/tv_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFD700"
+                android:textSize="64sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                tools:text="$25.00" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp" />
+
+            <!-- Status Icon Container -->
+            <FrameLayout
+                android:id="@+id/status_icon_container"
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+                <!-- Loading Spinner -->
+                <ProgressBar
+                    android:id="@+id/loading_spinner"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:indeterminateTint="#FFD700"
+                    android:visibility="visible" />
+
+                <!-- NFC Icon (hidden initially) -->
+                <ImageView
+                    android:id="@+id/nfc_icon"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/nfc_icon"
+                    android:src="@drawable/ic_nfc"
+                    android:tint="#FFD700"
+                    android:visibility="gone" />
+
+                <!-- Success Icon (hidden initially) -->
+                <ImageView
+                    android:id="@+id/success_icon"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/success"
+                    android:src="@drawable/ic_check_circle"
+                    android:tint="@android:color/white"
+                    android:visibility="gone" />
+
+                <!-- Error Icon (hidden initially) -->
+                <ImageView
+                    android:id="@+id/error_icon"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/error"
+                    android:src="@drawable/ic_error"
+                    android:tint="@android:color/white"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <!-- Status Message -->
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#FFD700"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"
+                android:text="@string/connecting"
+                tools:text="Connecting..." />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <!-- Instruction Text -->
+            <TextView
+                android:id="@+id/tv_instruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#FFD700"
+                android:textSize="16sp"
+                android:alpha="0.9"
+                android:fontFamily="sans-serif"
+                android:visibility="gone"
+                tools:visibility="visible"
+                tools:text="When tap signs appear, hold your card to the back of the phone" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

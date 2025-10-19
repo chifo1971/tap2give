@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Tap2Give</string>
+
+    <!-- Main Screen -->
+    <string name="main_title">Tap to Give</string>
+    <string name="main_subtitle">Select Donation Amount</string>
+    <string name="title_english">Tap to Give</string>
+    <string name="title_arabic">اضغط للتبرع</string>
+    <string name="select_amount">Select Donation Amount</string>
+    <string name="custom_amount">Custom Amount</string>
+    <string name="amount_custom">Custom</string>
+
+    <!-- Donation Amounts -->
+    <string name="amount_5">$5</string>
+    <string name="amount_10">$10</string>
+    <string name="amount_25">$25</string>
+    <string name="amount_50">$50</string>
+    <string name="amount_100">$100</string>
+
+    <!-- Payment Screen -->
+    <string name="payment_title">Payment</string>
+    <string name="payment_amount">Amount: %1$s</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="payment_card">Card</string>
+    <string name="payment_nfc">NFC</string>
+    <string name="payment_processing">Processing Payment…</string>
+    <string name="payment_success">Payment Successful!</string>
+    <string name="payment_cancel">Cancel</string>
+    <string name="payment_retry">Retry</string>
+    <string name="back">Back</string>
+    <string name="connecting">Connecting…</string>
+    <string name="ready_to_tap">Ready to Accept Payment</string>
+    <string name="tap_instruction">When tap signs appear, hold your card or phone to the back of this device</string>
+    <string name="processing">Processing Payment…</string>
+    <string name="payment_successful">Payment Successful!</string>
+    <string name="thank_you">Thank you for your donation</string>
+    <string name="payment_failed">Payment Failed</string>
+    <string name="please_try_again">Please try again</string>
+
+    <!-- Content Descriptions -->
+    <string name="nfc_icon">NFC Payment Icon</string>
+    <string name="success">Success</string>
+    <string name="error">Error</string>
+
+    <!-- Error Messages -->
+    <string name="error_connection">Unable to connect to payment system</string>
+    <string name="error_nfc_not_supported">This device does not support contactless payments</string>
+    <string name="error_nfc_not_available">NFC not available on this device</string>
+    <string name="error_nfc_disabled">NFC is disabled. Please enable it in settings</string>
+    <string name="error_location_permission">Location permission is required for contactless payments</string>
+    <string name="error_generic">An error occurred. Please try again.</string>
+    <string name="error_network">Network error. Please check your connection</string>
+    <string name="error_payment_processing">Error processing payment</string>
+    <string name="error_unknown">An unknown error occurred</string>
+
+    <!-- Success Messages -->
+    <string name="success_donation">Thank you for your donation!</string>
+
+    <!-- Navigation -->
+    <string name="nav_back">Back</string>
+    <string name="nav_home">Home</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_payment_screen">Payment screen for %1$s</string>
+
+    <!-- Audio -->
+    <string name="audio_success">Success sound</string>
+    <string name="audio_error">Error sound</string>
+    <string name="audio_button_click">Button click sound</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_rationale">Tap to Pay requires location permission to process contactless payments securely.</string>
+    <string name="permission_denied">Permission denied. Contactless payments cannot be processed.</string>
+
+    <!-- Admin -->
+    <string name="admin_mode">Admin Mode</string>
+    <string name="daily_total">Daily Total</string>
+    <string name="transaction_count">Transaction Count</string>
+</resources>
