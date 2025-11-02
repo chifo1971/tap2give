@@ -36,9 +36,37 @@ Run Detekt code quality check for:
 **Report Location:**
 `app/build/reports/detekt/detekt.html`
 
+### Backend/Web Code Quality (Significant Changes Only)
+
+**Firebase Functions Linting:**
+```bash
+cd functions && npm run lint
+```
+
+**Next.js Receipt Viewer Linting:**
+```bash
+cd tap2give-receipts && npm run lint
+```
+
+**When to run:**
+- New Firebase Functions or significant changes
+- Receipt viewer feature updates
+- Before production releases
+
+**Auto-fix:**
+```bash
+# Firebase Functions
+cd functions && npm run lint:fix && npm run format
+
+# Next.js
+cd tap2give-receipts && npm run lint:fix && npm run format
+```
+
 ### Before Production Release
-- [ ] Run Detekt code quality check: `./gradlew detekt`
-- [ ] Review Detekt report and fix critical issues
+- [ ] Run Android code quality: `./gradlew detekt`
+- [ ] Run Firebase Functions linting: `cd functions && npm run lint`
+- [ ] Run Next.js linting: `cd ../tap2give-receipts && npm run lint`
+- [ ] Review all reports and fix critical issues
 - [ ] Check Firestore rules match code expectations
 - [ ] Verify all Firebase Functions are deployed:
   - `createConnectionToken`
