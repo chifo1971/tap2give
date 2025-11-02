@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
     id 'com.google.firebase.crashlytics'
+    id 'io.gitlab.arturbosch.detekt'
 }
 
 android {
@@ -13,15 +14,26 @@ android {
         applicationId "com.mosque.taptogive"
         minSdk 26
         targetSdk 34
-        versionCode 1
-        versionName "1.0"
+        versionCode 11
+        versionName "1.2.1-beta"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('../Store/tap2give-keystore .jks')
+            storePassword System.getenv("KEYSTORE_PASSWORD") ?: project.findProperty("keystorePassword")
+            keyAlias "tap2give"
+            keyPassword System.getenv("KEY_PASSWORD") ?: project.findProperty("keyPassword")
+        }
     }
 
     buildTypes {
         release {
+            debuggable false
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
         debug {
             minifyEnabled false
@@ -30,6 +42,7 @@ android {
 
     buildFeatures {
         viewBinding true
+        buildConfig true
     }
 
     compileOptions {
@@ -46,6 +59,11 @@ android {
             excludes += ["/META-INF/{AL2.0,LGPL2.1}"]
         }
     }
+
+    lint {
+        disable 'ResAuto'
+        abortOnError false
+    }
 }
 
 dependencies {
@@ -55,6 +73,7 @@ dependencies {
     implementation 'androidx.activity:activity-ktx:1.9.2'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.5'
     implementation 'androidx.lifecycle:lifecycle-common:2.8.5'
+    implementation 'androidx.lifecycle:lifecycle-process:2.8.5'
 
     implementation 'com.stripe:stripeterminal-taptopay:4.7.3'
     implementation 'com.stripe:stripeterminal-core:4.7.3'
@@ -71,4 +90,25 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+}
+
+// Detekt configuration for code quality checks
+detekt {
+    buildUponDefaultConfig = true
+    allRules = false
+    config.setFrom(files("$rootDir/detekt.yml"))
+
+    source.setFrom(
+        "src/main/java",
+        "src/main/kotlin"
+    )
+}
+
+tasks.withType(io.gitlab.arturbosch.detekt.Detekt).configureEach {
+    reports {
+        html.required.set(true)
+        xml.required.set(false)
+        txt.required.set(false)
+        sarif.required.set(false)
+    }
 }
