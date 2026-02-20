@@ -1,0 +1,40 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Mosque-level documents
+    match /mosques/{mosqueId} {
+      allow read: if true;
+
+      // UAT feedback submissions - allow create AND update so the
+      // auto-save ("in_progress") -> final submit ("completed") flow works.
+      // The dashboard creates a doc on first auto-save, then updates it
+      // on final submission.  Previous rules only permitted create, which
+      // caused the 5 stuck incomplete submissions.
+      match /uat_submissions/{submissionId} {
+        allow read: if true;
+        allow create: if true;
+        allow update: if true
+          && request.resource.data.keys().hasAll(['status'])
+          && request.resource.data.status in ['in_progress', 'completed'];
+      }
+
+      // Donations collection used by the Android kiosk app
+      match /donations/{donationId} {
+        allow read: if true;
+        allow create: if true;
+      }
+
+      // General sub-collections (config, settings, etc.)
+      match /{document=**} {
+        allow read: if true;
+      }
+    }
+
+    // Block everything else by default
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
