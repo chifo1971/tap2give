@@ -7,17 +7,14 @@ service cloud.firestore {
     match /mosques/{mosqueId} {
       allow read: if true;
 
-      // UAT feedback submissions - allow create AND update so the
-      // auto-save ("in_progress") -> final submit ("completed") flow works.
-      // The dashboard creates a doc on first auto-save, then updates it
-      // on final submission.  Previous rules only permitted create, which
-      // caused the 5 stuck incomplete submissions.
+      // UAT feedback submissions - allow full read/write access during UAT.
+      // The dashboard auto-saves with setDoc (status: "in_progress") then
+      // the final submit updates to "completed".  Previous rules were too
+      // restrictive (status-field validation rejected writes where the form
+      // used setDoc without merge or sent a status value like "submitted").
+      // Keeping it open for UAT; tighten after UAT is complete.
       match /uat_submissions/{submissionId} {
-        allow read: if true;
-        allow create: if true;
-        allow update: if true
-          && request.resource.data.keys().hasAll(['status'])
-          && request.resource.data.status in ['in_progress', 'completed'];
+        allow read, write: if true;
       }
 
       // Donations collection used by the Android kiosk app
